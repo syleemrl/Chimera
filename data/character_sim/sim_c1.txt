@@ -1,0 +1,203 @@
+assembled: 'skel_c1.txt'
+num_base: 2 
+base:
+{ 
+	{
+		name: 'bear_NC.xml'
+		axis: 1+ 2+ 0+
+	}
+	{
+		name: 'dragon_NC.xml' 
+		axis: 1+ 2+ 0+
+	}
+}
+timing_func_base:
+{
+	{
+		timing_func_idx: 0
+		base: 0
+	}
+	{
+		timing_func_idx: 1
+		base: 1
+	}
+}
+joint_setting:
+{
+	{
+		name: 'HipsFromSkel1' 	
+		torque_limits: 0
+		kp: 0
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'SpineFromSkel1' 	
+		torque_limits: 200
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'Spine1FromSkel1' 	
+		torque_limits: 100
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'Spine2FromSkel1' 	
+		torque_limits: 100
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'NeckFromSkel1' 	
+		torque_limits: 50
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'HeadFromSkel1' 	
+		torque_limits: 50
+		kp: 100
+		timing_func_idx: 1
+		ee_joint: 1
+		pos_joint: 1
+	}
+	{
+		name: 'LeftShoulderFromSkel1' 	
+		torque_limits: 100
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'LeftArmFromSkel1' 	
+		torque_limits: 100
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'LeftForeArmFromSkel1' 	
+		torque_limits: 60
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}				
+	{
+		name: 'LeftHandFromSkel1' 	
+		torque_limits: 60
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 1
+		pos_joint: 1
+	}
+	{
+		name: 'RightShoulderFromSkel0' 	
+		torque_limits: 150
+		kp: 600
+		timing_func_idx: 0
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightArmFromSkel0' 	
+		torque_limits: 150
+		kp: 300
+		timing_func_idx: 0
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightForeArmFromSkel0' 	
+		torque_limits: 90
+		kp: 300
+		timing_func_idx: 0
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightHandFromSkel0' 	
+		torque_limits: 90
+		kp: 300
+		timing_func_idx: 0
+		ee_joint: 1
+		pos_joint: 1
+	}
+	{
+		name: 'LeftUpLegFromSkel1' 	
+		torque_limits: 200
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'LeftLegFromSkel1' 	
+		torque_limits: 150
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'LeftFootFromSkel1' 	
+		torque_limits: 90
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'LeftToeFromSkel1' 	
+		torque_limits: 60
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 1
+		pos_joint: 1
+	}
+	{
+		name: 'RightUpLegFromSkel1' 	
+		torque_limits: 200
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightLegFromSkel1' 	
+		torque_limits: 150
+		kp: 600
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightFootFromSkel1' 	
+		torque_limits: 90
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 0
+		pos_joint: 1
+	}
+	{
+		name: 'RightToeFromSkel1' 	
+		torque_limits: 60
+		kp: 300
+		timing_func_idx: 1
+		ee_joint: 1
+		pos_joint: 1
+	}
+}		

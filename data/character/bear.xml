@@ -1,0 +1,90 @@
+<Skeleton name="Humanoid">
+<Joint type="FreeJoint" name="Hips" parent_name="None" size="0.140581 0.5 0.7" mass="40">
+<BodyPosition translation="0.052635 0.002072 -0.000001" />
+<JointPosition translation="0 0 0" />
+</Joint>
+<Joint type="BallJoint" name="Spine" parent_name="Hips" size="0.194953 0.5 0.65" mass="40">
+<BodyPosition translation="0.097477 -0.000067 0.000000" />
+<JointPosition translation="0.122926 0.000000 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="Spine1" parent_name="Spine" size="0.205878 0.5 0.6" mass="25">
+<BodyPosition translation="0.102939 0.000006 0.000004" />
+<JointPosition translation="0.194953 -0.000133 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="Spine2" parent_name="Spine1" size="0.333143 0.4 0.55" mass="25">
+<BodyPosition translation="0.166572 -0.061633 0.000002" />
+<JointPosition translation="0.205878 0.000013 0.000007" />
+</Joint>
+<Joint type="BallJoint" name="LeftShoulder" parent_name="Spine2" size="0.291658 0.3 0.2" mass="3">
+<BodyPosition translation="0.145829 0.000000 -0.000059" />
+<JointPosition translation="0.253218 -0.123264 0.143928" />
+</Joint>
+<Joint type="BallJoint" name="LeftArm" parent_name="LeftShoulder" size="0.342728 0.2 0.2" mass="6">
+<BodyPosition translation="0.171364 0.000000 0.000000" />
+<JointPosition translation="0.291658 0.000000 -0.000117" />
+</Joint>
+<Joint type="BallJoint" name="LeftForeArm" parent_name="LeftArm" size="0.270039 0.18 0.18" mass="4">
+<BodyPosition translation="0.135020 0.000003 0.000007" />
+<JointPosition translation="0.342728 0.000000 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="LeftHand" parent_name="LeftForeArm" size="0.16 0.18 0.18" mass="1.2">
+<BodyPosition translation="0.000000 0.000000 0.000000" />
+<JointPosition translation="0.330039 0.000005 0.000014" />
+</Joint>
+<Joint type="BallJoint" name="Neck" parent_name="Spine2" size="0.12 0.2 0.2" mass="4">
+<BodyPosition translation="0.126138 0.000000 0.000000" />
+<JointPosition translation="0.23 -0.044758 0.000001" />
+</Joint>
+<Joint type="BallJoint" name="Head" parent_name="Neck" size="0.2 0.25 0.25" mass="9">
+<BodyPosition translation="0.000000 0.000000 0.000000" />
+<JointPosition translation="0.252276 0.000000 0.000001" />
+</Joint>
+<Joint type="BallJoint" name="RightShoulder" parent_name="Spine2" size="0.291709 0.3 0.2" mass="3">
+<BodyPosition translation="0.145854 0.000001 0.000006" />
+<JointPosition translation="0.253215 -0.123266 -0.143925" />
+</Joint>
+<Joint type="BallJoint" name="RightArm" parent_name="RightShoulder" size="0.342723 0.2 0.2" mass="6">
+<BodyPosition translation="0.171361 0.000001 0.000000" />
+<JointPosition translation="0.291709 0.000003 0.000012" />
+</Joint>
+<Joint type="BallJoint" name="RightForeArm" parent_name="RightArm" size="0.270066 0.18 0.18" mass="4">
+<BodyPosition translation="0.135033 -0.000018 0.000003" />
+<JointPosition translation="0.342723 0.000002 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="RightHand" parent_name="RightForeArm" size="0.16 0.18 0.18" mass="1.2">
+<BodyPosition translation="0.000000 0.000000 0.000000" />
+<JointPosition translation="0.33 -0.000036 0.000006" />
+</Joint>
+<Joint type="BallJoint" name="LeftUpLeg" parent_name="Hips" size="0.280781 0.35 0.4" mass="21">
+<BodyPosition translation="0.140391 0.000001 0.080000" />
+<JointPosition translation="-0.017655 -0.004143 0.321765" />
+</Joint>
+<Joint type="BallJoint" name="LeftLeg" parent_name="LeftUpLeg" size="0.179705 0.25 0.3" mass="9">
+<BodyPosition translation="0.089853 -0.000002 0.03" />
+<JointPosition translation="0.280781 0.000003 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="LeftFoot" parent_name="LeftLeg" size="0.1 0.254370 0.25" mass="1.5">
+<BodyPosition translation="0.033635 -0.016897 -0.000835" />
+<JointPosition translation="0.189705 -0.000004 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="LeftToe" parent_name="LeftFoot" size="0.120000 0.08 0.25" mass="0.6">
+<BodyPosition translation="0.000000 0.000000 0.000000" />
+<JointPosition translation="0.05 0.12 -0.000000" />
+</Joint>
+<Joint type="BallJoint" name="RightUpLeg" parent_name="Hips" size="0.280785 0.35 0.4" mass="21">
+<BodyPosition translation="0.140393 0.000010 -0.080000" />
+<JointPosition translation="-0.017655 0.004141 -0.321766" />
+</Joint>
+<Joint type="BallJoint" name="RightLeg" parent_name="RightUpLeg" size="0.179705 0.25 0.3" mass="9">
+<BodyPosition translation="0.089853 -0.000015 -0.030000" />
+<JointPosition translation="0.280785 0.000020 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="RightFoot" parent_name="RightLeg" size="0.1 0.254369 0.25" mass="1.5">
+<BodyPosition translation="0.033635 -0.016896 0.000836" />
+<JointPosition translation="0.189705 -0.000031 0.000000" />
+</Joint>
+<Joint type="BallJoint" name="RightToe" parent_name="RightFoot" size="0.120000 0.08 0.25" mass="0.6">
+<BodyPosition translation="0.000000 0.000000 0.000000" />
+<JointPosition translation="0.05 0.12 0.000004" />
+</Joint>
+</Skeleton>

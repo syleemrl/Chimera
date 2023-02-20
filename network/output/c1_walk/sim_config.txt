@@ -1,0 +1,32 @@
+character_sim: 'sim_c1.txt'
+pivot:
+{
+	'bear_walk.bvh'
+	'dragon_walk.bvh'
+}
+motion:
+{
+	'bear_walk.bvh'
+	'dragon_walk.bvh'
+}
+motion_processing:
+{
+	blend: 0
+	blend_interval: 0
+}
+terminal_condition:
+{
+	iteration: 3
+	head_diff_pos: 0.6
+	root_diff_pos: 0.6
+	root_diff_dir: 1.2
+	root_height_lower: 0.1
+	root_height_upper: 4.0
+}
+training_option:
+{
+	regression_input_cyclic: 1
+	use_reference_height: 1
+	use_state_concat: 0
+	use_collsion: 0
+}

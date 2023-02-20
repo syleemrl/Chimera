@@ -1,0 +1,29 @@
+type: 'single_motion'
+data: 
+{
+	{ 
+		character: 'bear.xml'
+		motion: 'bear_walk.bvh'
+	}
+	{ 
+		character: 'bear.xml'
+		motion: 'bear_run.bvh'
+	}
+	{ 
+		character: 'dragon.xml'
+		motion: 'dragon_walk.bvh'
+	}
+	{ 
+		character: 'dragon.xml'
+		motion: 'dragon_run.bvh'
+	}
+	{
+		config: 'chimera1/config_run.txt'
+	}
+	{
+		config: 'chimera1/config_walk.txt'
+	}
+	{
+		network: 'c1_walk'
+	}
+}
